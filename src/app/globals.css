@@ -47,3 +47,15 @@ a {
     color-scheme: dark;
   }
 }
+
+.linksytal{
+  width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 35px;
+}

@@ -1,0 +1,9 @@
+.caps{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  margin-top: 30px; 
+  justify-content: space-around;
+  margin-bottom: 20px;
+  
+}
