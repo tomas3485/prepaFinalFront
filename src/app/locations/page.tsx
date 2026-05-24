@@ -4,7 +4,7 @@ import {type ResultLocationsT } from "../type/LocationT"
 import api from "@/api/api"
 import LocationCard from "../components/LocationCard"
 import Paginacion from "../components/paginacion"
-
+import "@/app/locations/style.css"
 
 const LocationsPage = ()=>{
     const [sitios,setSitios]=useState<ResultLocationsT|null>(null)
